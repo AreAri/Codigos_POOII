@@ -38,7 +38,7 @@ public class MyTextField extends JTextField implements KeyListener {
         if (this.getText().isEmpty() || this.getText().matches("\\(\\d{3}\\) \\d{7}")) {
             // Si es válido, establecer el color de fondo a blanco y el color del texto a rojo
             this.setBackground(Color.WHITE);
-            this.setForeground(Color.BLACK);
+            this.setForeground(Color.RED);
         } else {
             // Si no es válido, establecer el color de fondo a rojo y el color del texto a blanco
             this.setBackground(Color.RED);
